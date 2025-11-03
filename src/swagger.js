@@ -395,7 +395,7 @@ const options = {
           parameters: [
             {
               name: 'id',
-              in: 'path',
+              in: 'patH',
               required: true,
               description: 'ID do reembolso',
               schema: {
@@ -534,3 +534,4 @@ const options = {
 const swaggerSpec = swaggerJsdoc(options);
 
 module.exports = { swaggerUi, swaggerSpec };
+//Comentando
